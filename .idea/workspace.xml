@@ -44,7 +44,7 @@
       <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="34" selection-start="1858" selection-end="1858" vertical-scroll-proportion="0.44850498" vertical-offset="495" max-vertical-offset="1950">
+            <state line="57" column="31" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.3986711" vertical-offset="495" max-vertical-offset="1950">
               <folding />
             </state>
           </provider>
@@ -96,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/views/songs/search.php" />
         <option value="$PROJECT_DIR$/app/controllers/SongController.php" />
         <option value="$PROJECT_DIR$/app/views/songs/songs-list.php" />
@@ -105,6 +104,7 @@
         <option value="$PROJECT_DIR$/app/models/Dvd.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/models/Genre.php" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
       </list>
     </option>
   </component>
@@ -378,7 +378,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="34" selection-start="1858" selection-end="1858" vertical-scroll-proportion="0.44850498" vertical-offset="495" max-vertical-offset="1950">
+        <state line="57" column="31" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.3986711" vertical-offset="495" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>

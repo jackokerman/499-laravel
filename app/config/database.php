@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'itp460.usc.edu',
-			'database'  => 'music',
+			'database'  => 'dvd',
 			'username'  => 'student',
 			'password'  => 'ttrojan',
 			'charset'   => 'utf8',
