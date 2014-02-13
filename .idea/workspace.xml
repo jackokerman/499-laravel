@@ -22,71 +22,106 @@
     <favorites_list name="499-laravel" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/config/database.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="31" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.3986711" vertical-offset="495" max-vertical-offset="1950">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="songs-list.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/songs/songs-list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="21" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Song.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Song.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="12" selection-start="183" selection-end="183" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SongController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/SongController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/songs/search.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="51" selection-start="265" selection-end="265" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="405">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5897741">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="Song.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/Song.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="113" selection-start="472" selection-end="531" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="585">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dvds.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/dvds/dvds.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="23" selection-start="371" selection-end="371" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1125">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="DvdController.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/DvdController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="11" selection-start="748" selection-end="748" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="540">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/songs/search.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="10" column="51" selection-start="265" selection-end="265" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="405">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="search.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/views/dvds/search.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="11" column="58" selection-start="392" selection-end="392" vertical-scroll-proportion="0.17758784" vertical-offset="0" max-vertical-offset="1053">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Dvd.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/models/Dvd.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="810">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SongController.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/controllers/SongController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/routes.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="21" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.17094018" vertical-offset="0" max-vertical-offset="1053">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/../vagrant-499/assignments/PHP-Auth-A3/login.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="36" column="24" selection-start="1392" selection-end="1453" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="750">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="songs-list.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/views/songs/songs-list.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="16" column="28" selection-start="482" selection-end="482" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -100,19 +135,42 @@
         <option value="$PROJECT_DIR$/app/controllers/SongController.php" />
         <option value="$PROJECT_DIR$/app/views/songs/songs-list.php" />
         <option value="$PROJECT_DIR$/app/models/Song.php" />
-        <option value="$PROJECT_DIR$/app/views/dvds/search.php" />
-        <option value="$PROJECT_DIR$/app/models/Dvd.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
-        <option value="$PROJECT_DIR$/app/models/Genre.php" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
+        <option value="$PROJECT_DIR$/app/models/Genre.php" />
+        <option value="$PROJECT_DIR$/app/models/Rating.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/models/Dvd.php" />
+        <option value="$PROJECT_DIR$/app/controllers/DvdController.php" />
+        <option value="$PROJECT_DIR$/app/views/dvds/dvds.php" />
+        <option value="$PROJECT_DIR$/app/views/dvds/search.php" />
       </list>
     </option>
+  </component>
+  <component name="PerforceDirect.Settings">
+    <option name="ENABLED" value="false" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="1024" />
+    <option name="width" value="1920" />
+    <option name="height" value="1174" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -187,7 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -205,7 +263,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dvds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="499-laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="499-laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -214,8 +294,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vagrant-499/assignments/PHP-Auth-A3/login.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="editor" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -260,15 +349,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.123958334" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -277,7 +367,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -334,37 +423,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/songs/songs-list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="318" selection-end="318" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/SongController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/songs/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="265" selection-end="265" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Song.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="12" selection-start="183" selection-end="183" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="585">
+        <state line="57" column="31" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.34188035" vertical-offset="495" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
@@ -376,9 +437,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+    <entry file="file://$PROJECT_DIR$/../vagrant-499/assignments/PHP-Auth-A3/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="31" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.3986711" vertical-offset="495" max-vertical-offset="1950">
+        <state line="36" column="24" selection-start="1392" selection-end="1453" vertical-scroll-proportion="-22.5" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Song.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="113" selection-start="472" selection-end="531" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/songs/songs-list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="28" selection-start="482" selection-end="482" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Dvd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="429" selection-end="429" vertical-scroll-proportion="-12.5" vertical-offset="0" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/SongController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="391" selection-end="391" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="631" selection-end="631" vertical-scroll-proportion="0.17094018" vertical-offset="0" max-vertical-offset="1053">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/songs/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="51" selection-start="265" selection-end="265" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/DvdController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="11" selection-start="748" selection-end="748" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dvds/dvds.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="371" selection-end="371" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/dvds/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="58" selection-start="392" selection-end="392" vertical-scroll-proportion="0.17758784" vertical-offset="0" max-vertical-offset="1053">
           <folding />
         </state>
       </provider>
