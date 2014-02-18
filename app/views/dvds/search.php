@@ -21,7 +21,7 @@
                                 <option value="All">All</option>
                                 <?php
                                     foreach ($genres as $genre) {
-                                        echo "<option value=$genre->genre>$genre->genre</option>";
+                                        echo "<option value=$genre->genre_name>$genre->genre_name</option>";
                                     }
                                 ?>
                             </select>
@@ -32,7 +32,7 @@
                                 <option value="All">All</option>
                                 <?php
                                 foreach ($ratings as $rating) {
-                                    echo "<option value=$rating->rating>$rating->rating</option>";
+                                    echo "<option value=$rating->rating_name>$rating->rating_name</option>";
                                 }
                                 ?>
                             </select>

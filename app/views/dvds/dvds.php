@@ -41,11 +41,11 @@
                             <?php foreach ($dvds as $dvd) : ?>
                                 <tr>
                                     <td><?php echo $dvd->title; ?></td>
-                                    <td><?php echo $dvd->rating; ?></td>
-                                    <td><?php echo $dvd->genre; ?></td>
-                                    <td><?php echo $dvd->label; ?></td>
-                                    <td><?php echo $dvd->sound; ?></td>
-                                    <td><?php echo $dvd->format; ?></td>
+                                    <td><?php echo $dvd->rating_name; ?></td>
+                                    <td><?php echo $dvd->genre_name; ?></td>
+                                    <td><?php echo $dvd->label_name; ?></td>
+                                    <td><?php echo $dvd->sound_name; ?></td>
+                                    <td><?php echo $dvd->format_name; ?></td>
                                     <td><?php echo $dvd->release_date; ?></td>
                                 </tr>
                             <?php endforeach; ?>

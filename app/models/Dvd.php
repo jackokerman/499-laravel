@@ -10,7 +10,7 @@ class Dvd {
 
     public static function getGenres() {
         $genres = DB::table("genres")
-            ->select("genre")
+            ->select("genre_name")
             ->get();
 
         return $genres;
@@ -18,7 +18,7 @@ class Dvd {
 
     public static function getRatings() {
         $ratings = DB::table("ratings")
-            ->select("rating")
+            ->select("rating_name")
             ->get();
 
         return $ratings;
@@ -26,24 +26,24 @@ class Dvd {
 
     public static function search($title, $genre, $rating) {
 
-        $query = DB::table("dvd_titles")
-            ->select("title", "rating", "genre", "label", "sound", "format", DB::raw("DATE_FORMAT(release_date, '%b %e, %Y') AS release_date"))
-            ->join("ratings", "ratings.id", "=", "dvd_titles.rating_id")
-            ->join("genres", "genres.id", "=", "dvd_titles.genre_id")
-            ->join("labels", "labels.id", "=", "dvd_titles.label_id")
-            ->join("sounds", "sounds.id", "=", "dvd_titles.sound_id")
-            ->join("formats", "formats.id", "=", "dvd_titles.format_id");
+        $query = DB::table("dvds")
+            ->select("title", "rating_name", "genre_name", "label_name", "sound_name", "format_name", DB::raw("DATE_FORMAT(release_date, '%b %e, %Y') AS release_date"))
+            ->join("ratings", "ratings.id", "=", "dvds.rating_id")
+            ->join("genres", "genres.id", "=", "dvds.genre_id")
+            ->join("labels", "labels.id", "=", "dvds.label_id")
+            ->join("sounds", "sounds.id", "=", "dvds.sound_id")
+            ->join("formats", "formats.id", "=", "dvds.format_id");
 
         if ($title) {
             $query->where("title", "LIKE", "%$title%");
         }
 
         if ($genre != "All") {
-            $query->where("genre", "=", $genre);
+            $query->where("genre_name", "=", $genre);
         }
 
         if ($rating != "All") {
-            $query->where("rating", "=", $rating);
+            $query->where("rating_name", "=", $rating);
         }
 
         $dvds = $query->get();
